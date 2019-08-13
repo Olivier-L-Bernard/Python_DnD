@@ -1,0 +1,58 @@
+Rarity         Name         Effect         Bonus
+1         Padded(L)         11         NA
+1         Breastplate(H)         14         NA
+2         Breastplate+2         14         +2AC
+3         breastplate+3         14         +3AC
+1         ChainMail(H)         16         NA
+2         Chainmail+2         16         +2AC
+3         chainmail+3         16         +3AC
+1         ChainShirt         14         NA
+2         chainshirt+2         14         +2AC
+1         Hide(M)         12         NA
+2         Hide+2         12         +2AC
+1         Leather(L)         11         NA
+2         Leather+2         11         +2AC
+2         Plate(H)         18         NA
+2         RingMail(H)         14         NA
+2         Scale(H)         14         NA
+2         Spiked(H)         14         NA
+3         Splint(H)         17         NA
+2         Studded(L)         12         NA
+3         AnimatedShield         2         +2AC and float around
+3         Chain shirt(M)         13         NA
+3         Half plate(M)         15         NA
+3         Plate(H)         18         NA
+4         Gloves of missile snaring         NA         Reduce missile by 1d10+dex modifier if one hand free. If damage reduced to 0, can catch the missile.
+4         Spellguard Shield         NA         While holding the shield, advantage on saving throws against spell and other magical effects. Spell have disadvantage against you. Increase AC by 2
+3         shield repulsion         1         can insta react. Pushing ennemy 15feet away. Can't be used again until short or long rest
+4         Demon armor         19         Cursed, you can't take it off and have disadvantage against demons. But you can understand and speak abyssal, plus giving slash damage +1 to attack rolls and dmg 1d8
+4         NA         NA         NA
+5         NA         NA         NA
+5         Armour of invulnerability         18         resistance to nonmagical attacks, and can have a 10minutes of resistance to magical damage (once per day, charge at dawn).
+5         Helm of brilliance         3AC         Set with 1d10 diamonds,2d10 rubies, 3d10 fire opals, 4d10 opals. Taking a stone out destroy it. When no more stone, helmet = destroyed. While wearing it: Can cast (save DC18) with the specified gem; Daylight(opal), fireball(fireopal), wall of fire (ruby). Gem is destroyed. As long as there is one diamond, helmet emits 30foot radiance when one undead is in reach. The one starting the light take 1d6. On ruby = fire resistance. And if at least one fire opa, can speak words to cause one weapon to burst into flames. 10 foot light plus 10. Target take extra 1d6 damage. Last until word are spoken again or action is done. Take fire damage if fail save vs a spell. On a 1, lights from remaining gems and each creature in sight must succed a Dc17 dex or be struck taking damage = number of gems. 
+3         Elven chain         15         Anyone can wear it.
+4         Gauntlets of Ogre power         3AC         Give a strenght of 19. Nothing else
+3         Armour of resistance         Depend which armour         1d10 (1acid, 2cold, 3fire, 4force, 4lightning, 6necrotic, 7poison, 8psychic, 9 radiant, 10thunder)
+3         Armour of vulnerability         12         Cursed but only reavaled when attuned or identified. Curses the wearer with three type of dmag (pierce, slash, warding) but has resistance (Blundgeoning, piercing,slashing)
+4         Boots of the winterlands         NA         Resistance to cold and ignore terrain of ice and snow (cold)
+3         Boots of speed         NA         Use action to double your speed (need to hit hilt) Everyone attacking has disadvantage
+5         Plate armour of Etherealness         18         On words, get the etherealness for 10min or speak the words again. Can be used once per day (recharge at dawn).
+3         Boots of elvenkind         NA         Make no sound regardless of the surface. Advantage on stealth dex check
+4         Dragon armour         15         advantage vs breath of dragons, plus resistance to the type of the scales(black acid, blue lightning, brass fire, bronze lightning, copper acid, gold fire,gree poison, red fire, silver cold, white cold). In addition, can focus and find dragon (same as your scale) nearest within 60km.
+3         Glamoured studded leather         13         Bonus action to speak command and the armour looks like regular clothes or other armour (you decide all)
+5         Flint's ring         NA         The more naked the more dmg you give. Buff to damage
+3         Mouth gard         1AC         Prevent concussion
+3         Sparta armour         13AC         Gives you a badass, yet very sexually questionnable, fashion
+3         Athenes council robe         11AC         Yet comfortable, but it doesn't grant you much except a bad reputation and pedophile rumors
+3         Knight's Armour         ChainMail         +1Ac at night
+3         Cloak of levih-Floatness         NA         A red cloak that has a large popped collar.The cloak can cast levitat if asked nicely (must add please and a dc15 check persuation). Will wipe any tear
+3         Tank top         +2AC         A tank top that can be worn under armour
+3         Death'S knee brace         NA         An armored piece of knee covering that increases your speed based on the last kill. Every new kill overwrittes the previous
+4         Attractive shiny armour         Chainmail         chainmail that gives +2AC. Very shiny. Much attractive. Such a hit with the ladies. Any projectile that flies within a 10foot radius is redirected to the sender and hit them (automatic)
+3         Stormy Helm         3AC         A glimmering white helmet with a black visor. Hard to see out of. -5 on any ranged attack
+3         Boots of punting         NA         A pair of leather boots with reinforced, pointed toes. Wearer has an irrestistible urge to punt anything in the tiny size category or smaller. Wearer can make punting attak (-2 str check) for 1d6 piercing and 1d6 blundgeoning. The character sente 10' directly from the wearer on a hit.
+4         Helm of courage         +1AC         A beautiful helmet. A helmet that encourages the player heartly. Good shot! Nice Hit! I'm sure you'll get it next time
+4         Robe of the high ground         NA         A simple, hooded robe, like one a monk would wear. Gives wearer advantage on any attacks made on someone below them and a tendency to speak in absolute.
+4         Gauntlet of Garlan         NA         One of the few remains of the armour once worn by Garlan the Brave. It was forged in arcane magic and tempered to whitstand the blow of any blade, mortal or not. The wearer can attempt to unbind a curse while wearing it
+1         Cracked targe         1AC         Looking for something to shield yourself ain't you? Weel keep looking because this cheap piece of shit here will probably stop one or two blows at most before falling apart... Hey, no one said it was good, only cheap.
+3         Brawler's shield         NA         A beautiful ornamented shield painted purple. If the holder is attacked with melee and the attacker misses, make a DC18. The shield then hops off then arm and grab the attacker, restraining them. Every turn that someone is held by the shield, the shield and the restrained must make a strenght contest (+0 str )
