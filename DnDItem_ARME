@@ -1,0 +1,94 @@
+Rarity         Name         Effect         Bonus
+1         Dagger         1d4(ou6)         NA
+1         Longsword         1d8         NA
+1         Shortsword         1d6         NA
+1         BattleAxe         1d8         +1attack +1dmg
+2         BattleAxe+2         1d8         +2attack +2dmg
+3         BattleAxe+3         1d8         +3att +3dmg
+2         Crossbow         1d8         NA
+2         HandAxe         1d6         NA
+2         Lance         1d12         NA
+2         Maul         1a2d6         NA
+2         Rapier         1d8         NA
+2         Scimitar         1d6         NA
+2         Shortbow         1d6         NA
+2         Warpick         1d6         NA
+2         Warhammer         1d10         NA
+3         DaggerVenom         1d4         "+"1att et dmg. Peut faire une action d'empoisnonner la lame (vient de la dague). Lorsque attaque, const D15 save ou 2d10 de dégat poison. 1fois par jor
+3         FlameTongue         DependLength         You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
+3         Glaive         1d10         NA
+3         GreatAxe         1d12         NA
+3         MaceSmithing         1d10         You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct. When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.
+3         Pistol         1a3d6(ou8)         NA
+3         Rifle         1a3d8(ou10)         NA
+3         LyriumRifle         1a3d8(ou10)         +1d6 au êtres magique + 2dexmod
+4         BerserkerAxe         1d12         1d8 +1 att et dmg. Curse: incapable de s'en séparer. Désavantage lors attaque sans cette arme. Si attaqué, roule save wis 15. Si échoue gagne l'état berserk
+4         DancingSword         1d8         Lance épée et avec mot magique l'épée vole. Elle attaque la cible de ton choix parmis les 5 plus proches. AprÈs 4 attaque revient. Si pas de mains libre tombre au sol
+4         DwarvenThrower         1d10         You gain a +3 bonus to attack and damage rolls made with this magic weapon. It has the thrown property with a normal range of 20 feet and a long range of 60 feet. When you hit with a ranged attack using this weapon, it deals an extra 1d8 damage or, if the target is a giant, 2d8 damage. Immediately after the attack, the weapon flies back to your hand.
+5         Defender         Depend         "+"3Att et Dmg. Si le bonu sde dégat n'Est pas utilisé, bonus de AC
+5         LuckBlade         Depend         "+"1att et dmg. +1 au saves. (Luck 1x par jour reroll er prend second total. )(Wish 1d4 cast le spell WISH. Lorsque les charges sont à zéros, ce spell n'est plus utilisable)
+5         HolyAvenger(Paladin)         Depend         "+"3att et dmg. +2d10 si attaque mort vivant ou fiend. Si amis dans range de l'arme, + save contre magie
+5         StaffMagie         NA         50 charges (4d6/jour)( à 0 -> 1d20. Si 20 -> 1d12 +1 charges) "+"2att et dmg. Conjure elemental (7chg), Dispel magic(3ch), fireball(7chg), flamme sphere(2ch), ice storm (4ch), invisibility (2ch), knock (2ch), lightning bolt (7ch), passwall (5ch), telekinesis(5ch), wall of fire(4ch), 
+4         Staff of fire         NA         10charges, burning hands (1), fireball(3), wall of fire (4). regains 1d6+4 per day. if empty, roll d20, on a 1 it's not magical.
+4         Staff of striking         NA         10charges. On a hit, can use up to 3 charge to gain 1d6 per charge. regains 1d6+4 charge per day at dawn. If empty, roll a d20, on a 1, it's nonmagical.
+4         Staff of frost         NA         10 charges, cone of cold(5), fog cloud(1), ice storm(4) or wall of ice(4) 1d6 +4 per day
+3         Dragon Sword         Depend         Once you have it choose amongst the choices:GS=Martial,2d6+1slahing(H);LS=Martial,1d8+1slash,Versatile(1d10);Rap=Martial,1d8+piercing,finesse;Scimita=Martial,1d6+1slashing,finesselight;SS=Martial,1d6+1slash,finesselight
+5         Hammer of thunderbolts         +1 bonus to attack and dmg rolls         Giants bane (must be attuned, need belt of giant strenght and gauntlet of ogre power). While attuned, +4to strenght. Roll a 20 on an attack vs a giant, the giant must do a dc17 cons save or die instantly. 5charges. 1 charge for a range attack hurling it with throwing propreties. If lands, thunderclap audible 300feet. Target and every creature within 30feet must do a DC17 cons save or be stunned. Regains 1d4+1 per day charge.
+4         oathbow         NA         Take oath against an ennemy (Swift death to you who have wronged me) and the target = sworn ennemy. Last 7days or until it's dead. Advantage against enemy and it gains no benefit from cover and no long range penalty. If the ennemy attacks you, take extra 3d6 piercing damage.
+4         9 lives stealer         depend         +2attack and dmg. 9 charges. If score a crit vs a creature with less than 100hp, must do a DC15 check. On fail, dead.
+3         Rod of rulership         NA         Can command obeidance from each creature of your choce you can see with 120feet. Target must succeed DC15 wis or be charmed for 8 hours. It regards you as it's trusted leader. If betrayed, cease to be charmes. Once per day
+3         Frost Brand         Depend         Once you have it choose amongst the choices:GS=Martial,2d6+1slahing(H);LS=Martial,1d8+1slash,Versatile(1d10);Rap=Martial,1d8+piercing,finesse;Scimita=Martial,1d6+1slashing,finesselight;SS=Martial,1d6+1slash,finesselight. All have 1d6 freezing dmg plus can extinguish fire within 30feet(1 per hour)
+3         Multiple bullet gun         depend distance         Can load up to 6bullet and shoot in a cone
+4         Purple justice         1d4         Humiliate your enemy on hit. They're ashamed to be there. When someone wish for the strongest weapon in the world, it's this weapon that is summoned.
+5         Hammer of timer         1d10         On a crit success, you can age or reverse time of the victim. At one point one could master the weapon
+1         Scythe         1d6         A regular scythe
+4         Soul Blade         1d8         Allow the bearer to hit the soul of his ennemies (+1d8 psych dmg)
+1         Lumber axe         1d6         Ease the cut of trees and chop shields
+5         Leviathan axe         1d10         The owner of the weapon can call it back. Roll (gives extra 1d6 elemental + on hit it garantee effect)
+5         Angron Axe         1d12         Created by sacrifice of Agnar blood and Merlin Magic, this axe only obey the strongest, and return to its owner hand. It does freezing dmg when thrown (freeze the ennemy on successful hit). The axe can sense the ennemies resistance and adapt it's element. But it has a weak physique dmg.
+4         Barbarian Hammer         2d10+1d6magic         A gigantic hammer that can summons spirits of its victims. But you can't move well with it.
+2         Magic handband         1d6         Magic band that allow the user to punch without feeling much pain
+2         Huscarl sword         1d8         A sword that doesn't loose its sharpness
+1         Mining pike         1d6         A regular pike
+4         Monkey hand         1d6         Give the wearer mastery of monkey boxing 
+4         Barbarian Sword         2d8+1d6magic         More agile than the hammer. It looks cooler too and can summon the anger of the bearer(gives 1d6 psychic power + 1d4 anger)
+3         Crusader cross         1d6+1d6holy         A cross useful to vanish the forces of chaos and shit
+3         Heretic cross         1d6+1d6unholy         A profanated cross usefull to corrupt the holy and shit
+2         Flail         1d6         Just a BDSM tool or a very efficient whip
+4         Sword of speed         1d8         Grants you inhuman speed... but you're retarded (-4int) and everything is in slowmotion for ever (goes with the use), require the blood of a virgin to activate
+4         Big ass key         1d8         Just a gigantic key. Can be used to unlock giant chest or crush mortals.
+5         Mjolnir         1d12         shoot lightning (1d6) can change weather (a bit, require attunement), must be worthy to bear it (or very very very very strong)
+5         Loki's blade         1d6         Can stab gods and injure them pretty easily
+5         Bob ross brush         1d4         More a healer thing than anything else. 1d8 healing on friendly hit
+4         Orkz axe         1d8         Should not work, but somehow do. And it's not orc but ORK made. Grants +5str but -3int and -2wis
+2         Orc axe         1d4         Should work but it doesn't do well
+4         Pimp cane         1d6         A very shiny cane that grants you +3charisma with lady and hoes
+3         The injuraser         NA         An earaser that erases wounds (1d8). It has three charges a day. Every use, roll a d20. First use, it disapears on a one. Second use, it desapears under a 10, third under a 15.
+4         Ratty Sac         NA         A bag of endless rats. A thrown rat hits an enemy for 1d4dmg
+3         True Shot         NA         An arrow that has a glowing rounded of tip. It deals half dmg to target, however on a success, the shooter and the victim switch place.
+4         Tony         Spear         A spear with the name Tony carved into the shaft. Talking spear. When hit by the spear and it talks, the injured party mmust take int 15DC saving. On fail, they'Re afraid of Tony unless it reassures them
+3         A strange Key         1d10         A big ass key than no one knos what it unlocks. But can be use as a mace.
+4         Double edge sword         1d8         Longsword with dark runes in the handle. Before you strike with this sword, you can choose to make a leeching strike. You declare a number to 20, and immediatly take a s much damage. If your strike hits, deal the damage done to yourself on top of the damage by the sword. Can only be used once per day.
+3         Spit tube,         NA         A blowgun that does not use darts. It instead fires magical spit balls that do 1 piercing damage. If a crit, the hit target turns to spit. They can onlu be performed by spitting in the puddle. Once this has been used for the crit, it turns into a +1 blowgun
+3         Thorny dagger         1d4         A dagger that deals leeching damage. If you make a hit, you can choose to use a d6,8,10 or 12 of piercing instead of a 4. Howerver, you have to roll an additionnal die of the same type and that's the damage you'll take
+4         The singing axe         1d8+2         A magical battleaxe that constantly sings in an unearthly voice. Only knows one song, up to gm but feel free to bust out the speakers and play it on loop as long as axe is being used. Has +2 to hit and deals 1d8+2 dmg with one hand and 1d10+3 with two.
+3         Clue by four         1d4         A board that when you hit with it, gives you relevent information/knowledge relevent to your situation.
+3         Chain of command         1d6         the flai I beat ya with 'till ya understand who's in ruttin' cammand here. When hit by the flail, the holder has the effect command spell. The hit party must make a DC15 wisdom saving throw.
+3         Tranfusion bottle         1d4         A clear glass bottle with a cork. Can hold liquid. Seems very strong. If liquids is in the bottle, target hi with instantly consumes watherver was in the bottle and has the effects of it. On 1, break the bottle.
+4         Sword of greed         1d8         A +2 longsword. Whenever you try to draw another weapon, you draw this sword. Whenever you try to draw this sword, you draw a random weapon. It just wants to be loved
+3         Finicky Trident         Trident         A silver +2 trident. Screams in pain when thrown.
+3         The longsword of trying is what that counts         1d8         +0 Longsword. When it hits something, it passes through them, dealing psychic damage.
+4         Vera         NA         A bow that fires two shots at once. The second arrow does not have your proeficiemcy modifier
+4         Weighty Tome         1d12         An extremely boring book. Can learn one proefficiency on int.
+3         Despoiler Axe         1d8         The ensorcelled steel of the despoiler holds the very blood of a fiery demon. Always screaming, always trying to tear apart the metal it has been bound to. Every critical hit deals 1d6 +3 fire dmg
+4         OathBlade         1d8         Any vows or oaths that the wielder of the holy sword may take will appear engraved on its steel soon after. Only fade away once the oath is fulfilled. Will reapear on the bearer side if thrown away and note taken by someone else
+3         Stoneforge hammer         1d10         Weapon given to stoneforge pilgrims is a simple greathammer bearing the symbols of the order: an anvil and a lock. When the wielder lands a killing blow, regain 1d6 HP
+5         Baleflame         1d6         "Dark and cold was the night in which the baleflame first sparked to life..." The baleflame is a legendary weapon, known merely as a myth to many... Yet the creatures of the night knows its bite too well...
+5         Lifethriver         NA         This magical staff is rumored to be a gift from Lathander, who, in his mighty power, embedded it with the very essence of birth, light and renewal
+4         Emberstone staff         Very rare and powerfull staff, the aura it emits when being close that is even said to be some sort of ore of pure magic. Truth or not, it has been proven that this mineral increases the effectiveness of all kind of spells and enchantement,
+4         Dagger of thornfire         1d4         The cursed steel of this weapon is said to cause a terrible pain to its victime, whome can only describe it as a prolonged stinging heat that extends rapidly through one's bones. Even the slightest cut of flesh wound will cause immense pain. The dagger inflicts 2d4 force dmg to a wounded ennemy. On a 5+, the victime temporarily restrained due to the pain
+3         Starsteel sword         1d8         Made from the metal of a comet, in the proper hands, can make fore weapons able to cut through shields and magic barrier as if there was only air in their path
+3         Nail setter         1d8         A magical light hammer that can hit simple carpenter nails with such force that they act as ranged attack, dealing 1d6 piercing on hit
+3         The flail of fail         1d6         Crits and hits on 1s regardless of AC (treated as if you rolled a 20 on your hit roll)
+3         Shortsword of vengeance         NA         Gleaming shortsword blessed by a priest of Tempus, and previously owned by a battlefield commander. The +1 shortsword will deal 1d6dmg or 2d6 dmg if the victim has injured the wielder before.
+4         Night king's spear         1d6         Learn the spell conjure minor elementals, treat it as a water elemental without the weakness freeze
