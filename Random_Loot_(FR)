@@ -103,11 +103,11 @@ def loot():
                 gofb = randrange(1, len(R3[0]))
                 print('L.objet est: ' +str(R3[1][gofb]) +' (rarete '+str(R3[0][gofb]) +')' +', Effet: '+  str(R3[2][gofb])+', Bonus: '+  str(R3[3][gofb]))
                 main()
-            if 60 < objetiem <= 75: #Objet rares
+            if 60 < objetiem <= 80: #Objet rares
                 gofb = randrange(1, len(R4[0]))
                 print('L.objet est ' +str(R4[1][gofb]) +' (rarete '+str(R4[0][gofb]) +')' +', Effet: '+  str(R4[2][gofb])+', Bonus: '+  str(R4[3][gofb]))
                 main()
-            if 75 < objetiem <= 110: #Objets legandaires
+            if 80 < objetiem <= 110: #Objets legandaires
                 gofb = randrange(1, len(R5[0]))
                 print('L.objet est: ' +str(R5[1][gofb]) +' (rarete '+str(R5[0][gofb]) +')' +', Effet: '+  str(R5[2][gofb])+', Bonus: '+  str(R5[3][gofb]))
                 main()
