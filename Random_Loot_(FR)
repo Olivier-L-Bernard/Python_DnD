@@ -20,7 +20,7 @@ def loot():
         print('Mais quelle perte...Il n.y a rien!')
         main()
     else:
-        cashmoney = 60/diff + (3-diff)*diff
+        cashmoney = round(60/diff,0) + (3-diff)*diff
         item = 30 
         lesdeux = 10*diff
         total = cashmoney + item + lesdeux
@@ -32,8 +32,7 @@ def loot():
             silver = round(nba + chance2,0)
             gold = round(nba*int(diff)-nba,0)
             print('Il y a ' + str(copper) +' copper, '+str(silver)+ ' silver et '+ str(gold)+ ' gold')
-            main()
-            
+            main()           
         if chance2 >= cashmoney+item:
             print('De l.or et un item! Quelle trouvaille! Roulez un d12...')
             nba = randrange(0,20)
@@ -54,8 +53,7 @@ def loot():
                 var = pd.read_csv(prefix + suffixe[1] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')        
             if 9 <= Nb <= 12:
                 print('Un ACCESSOIRE')
-                var = pd.read_csv(prefix + suffixe[2] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')
-            
+                var = pd.read_csv(prefix + suffixe[2] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')            
             R1 = [[] for i in range(4)]
             R2 = [[] for i in range(4)]
             R3 = [[] for i in range(4)]
@@ -111,8 +109,7 @@ def loot():
                 gofb = randrange(1, len(R5[0]))
                 print('L.objet est: ' +str(R5[1][gofb]) +' (rarete '+str(R5[0][gofb]) +')' +', Effet: '+  str(R5[2][gofb])+', Bonus: '+  str(R5[3][gofb]))
                 main()
-    main()
-    
+    main()    
 def main():
     commande = input('On fouille (Oui,Non)?:')
     if commande == 'O' or commande == 'o':
