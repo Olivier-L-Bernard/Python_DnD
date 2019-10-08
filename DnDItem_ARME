@@ -55,6 +55,7 @@ Rarity         Name         Effect         Bonus
 1         Mining pike         1d6         A regular pike
 4         Monkey hand         1d6         Give the wearer mastery of monkey boxing 
 4         Barbarian Sword         2d8+1d6magic         More agile than the hammer. It looks cooler too and can summon the anger of the bearer(gives 1d6 psychic power + 1d4 anger)
+3         Fantasmal flail         NA         This flail handle is attached to a spectral chain and flail. Upon a hit, the weapon deals 1d8 psychic damage and passes through whatever it hit, having a 1/2 chance to also hit somethin nearby (within 5ft).
 3         Crusader cross         1d6+1d6holy         A cross useful to vanish the forces of chaos and shit
 3         Heretic cross         1d6+1d6unholy         A profanated cross usefull to corrupt the holy and shit
 2         Flail         1d6         Just a BDSM tool or a very efficient whip
@@ -94,6 +95,7 @@ Rarity         Name         Effect         Bonus
 3         Axe of the exile         1d6         +1handaxe and 1d6 on throw. Return to the weilder. If cannot catch or the weilder have moved, it fall on the ground. Cursed: exile, upon takign the axe, you are unable to return within a mile radius of your home settlement nor speak to family or loved ones. When within the radius or talking to a forbiden, take 1point of exhaustion and must do dc18 every 10 minutes. On a fail, you flee
 3         Nail setter         1d8         A magical light hammer that can hit simple carpenter nails with such force that they act as ranged attack, dealing 1d6 piercing on hit
 2         Willets flail         1d8         Can press button to have chain released (20ft). Press again to bring back. A vial can be put in the head and it shatters on the first hit (e.g. acid or poison)
+4         Windbreaker         +1greataxe         Immense, ancient time forged, great axe harness the power of wind. Two handed weapon (except if super fucking strong) can be used in melee (great axe +1), dealing 1d12 slashing or cast a range attack on a single target (up to 100ft). On hit, target must succeed 15DC str or be pushed 5ft away.
 3         The flail of fail         1d6         Crits and hits on 1s regardless of AC (treated as if you rolled a 20 on your hit roll)
 3         Wand of spider summoning         n/a         has 8 charges and last for a minute. 1large spider (3ch), 1 spider swarm(2ch), 1 normal spider(1ch). The wands regain 1d6 charge per day. If none left, roll 1d20. On a fail, it transforms into a spider and flee
 3         Thermo-gloves         depends         While wearing, you may chose to add either +2 cold or fire damage to unnarmed attack. Red: As a touch action, you can ignite inflammable. Blue:As a touch action, you can freeze up to 10ft cube of water, provided there's no creature in it. Unfreezes after 1hour. 2p/d: steam cloud, clap the glove and create a 20ft fog all creature within 5ft suffers 2fire ptdmg and must roll str 14 or be knocked prone.
