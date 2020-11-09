@@ -2,24 +2,39 @@ Rarity         Name         Effect         Bonus
 1         Dagger         1d4(ou6)         NA
 1         Longsword         1d8         NA
 1         Shortsword         1d6         NA
+1         club         1d4         NA
+2         Shortbow         1d6         NA
+1         Greatclub         1d8         NA
 1         BattleAxe         1d8         +1attack +1dmg
+1         Spear         1d6         NA
+2         Greatsword         2d6         NA
+1         Halberd         1d10         NA
 2         BattleAxe+2         1d8         +2attack +2dmg
+1         Longbow         1d8         NA
 3         BattleAxe+3         1d8         +3att +3dmg
 2         Crossbow         1d8         NA
-2         HandAxe         1d6         NA
+2         HeavyCrossbow         1d10         NA
+2         HandAxe         1d6         Can be thrown as well and has advantage against armor and shields
+1         Hand Crossbow         1d6         NA
 2         Lance         1d12         NA
 2         Maul         1a2d6         NA
+2         Morning star         1d8         NA
 2         Rapier         1d8         NA
 2         Scimitar         1d6         NA
+1         Pike         1d10         NA
 2         Shortbow         1d6         NA
 2         Warpick         1d6         NA
 2         Warhammer         1d10         NA
+2         Quarterstaff         1d6         NA
+2         Javelin         1d6         NA
+3         Ultra great sword         3d6         8ft long. If miss the target, the turn ends right away for relifting the sword. Only strongest can use it, crit on a 19 and 20
 3         DaggerVenom         1d4         "+"1att et dmg. Peut faire une action d'empoisnonner la lame (vient de la dague). Lorsque attaque, const D15 save ou 2d10 de dégat poison. 1fois par jor
 3         FlameTongue         DependLength         You can use a bonus action to speak this magic sword's command word, causing flames to erupt from the blade. These flames shed bright light in a 40-foot radius and dim light for an additional 40 feet. While the sword is ablaze, it deals an extra 2d6 fire damage to any target it hits. The flames last until you use a bonus action to speak the command word again or until you drop or sheathe the sword.
 3         Glaive         1d10         NA
 3         GreatAxe         1d12         NA
 3         MaceSmithing         1d10         You gain a +1 bonus to attack and damage rolls made with this magic weapon. The bonus increases to +3 when you use the mace to attack a construct. When you roll a 20 on an attack roll made with this weapon, the target takes an extra 7 bludgeoning damage, or 14 bludgeoning damage if it's a construct. If a construct has 25 hit points or fewer after taking this damage, it is destroyed.
 3         Pistol         1a3d6(ou8)         NA
+5         Rod of Lordly Might         Depends         6buttons. Effects lasts until pressed again or another is pressed. 1=flametongue. 2=Battleaxe +3. 3= becomes a spear +3, 4=climbing pole 50feet long, 5= handheld battering ram +10 to str check to go through doors, 6=gives magnetic north and depth or height. On melee (once per day) Drain life: DC17 or 4d6 necrotic (heal of same amount), Paralyze: DC17str or paralyzed until success, Terrify, DC17 (all within 10m) or is frightened for 1 minute.
 3         Shadowglass daggers         1d4+1d4necro         These pass through clothes and skin, only leaving internal dmg (no external wounds)
 3         Rifle         1a3d8(ou10)         NA
 3         LyriumRifle         1a3d8(ou10)         +1d6 au êtres magique + 2dexmod
@@ -94,6 +109,7 @@ Rarity         Name         Effect         Bonus
 3         Starsteel sword         1d8         Made from the metal of a comet, in the proper hands, can make fore weapons able to cut through shields and magic barrier as if there was only air in their path
 3         Axe of the exile         1d6         +1handaxe and 1d6 on throw. Return to the weilder. If cannot catch or the weilder have moved, it fall on the ground. Cursed: exile, upon takign the axe, you are unable to return within a mile radius of your home settlement nor speak to family or loved ones. When within the radius or talking to a forbiden, take 1point of exhaustion and must do dc18 every 10 minutes. On a fail, you flee
 3         Nail setter         1d8         A magical light hammer that can hit simple carpenter nails with such force that they act as ranged attack, dealing 1d6 piercing on hit
+2         Trident         1d6         Good shit
 2         Willets flail         1d8         Can press button to have chain released (20ft). Press again to bring back. A vial can be put in the head and it shatters on the first hit (e.g. acid or poison)
 4         Windbreaker         +1greataxe         Immense, ancient time forged, great axe harness the power of wind. Two handed weapon (except if super fucking strong) can be used in melee (great axe +1), dealing 1d12 slashing or cast a range attack on a single target (up to 100ft). On hit, target must succeed 15DC str or be pushed 5ft away.
 3         The flail of fail         1d6         Crits and hits on 1s regardless of AC (treated as if you rolled a 20 on your hit roll)
@@ -103,6 +119,7 @@ Rarity         Name         Effect         Bonus
 3         Shortsword of vengeance         NA         Gleaming shortsword blessed by a priest of Tempus, and previously owned by a battlefield commander. The +1 shortsword will deal 1d6dmg or 2d6 dmg if the victim has injured the wielder before.
 3         Sword of feelings         N/A         A sword that inflicts emotional wounds
 3         The goblin sword	N/A         A dagger that glows in the presence of one particular goblin
+3         Trident of fish command         1d6         3 charges, can use action to cast dominate beast (DC15 save) on a beast that has an innate swimming movement. 1d3 charges gained per day (max 3)
 4         Night king's spear         1d6         Learn the spell conjure minor elementals, treat it as a water elemental without the weakness freeze
 3         Magic wand         N/A         A wand that allow you to use magic spelle lmfao
 3         dagger gloves         1d8         gloves with spikes on it
@@ -112,7 +129,10 @@ Rarity         Name         Effect         Bonus
 5         HMS Divinity         RIFLE         Gain a +3 bonus to attack rolls, add 2d12 bludgeoning on a hit. This weapon ignores cover when the target is hiding behind a structur of wood. On hit, all surrounding within 5feet also take the damage done. When the weapon is held, it leaves a trail of sea foam. Can chose to leave footfall of water with ripples behind.
 5         Eureka         1d10         Gain a +3 bonuson roll. You can cast destructive once. Short rest recharge it. When held, it leaves a trail of bright red light. If walking, can leave obsidians shards behind
 5         Flames of war         Torch         Gain a +3 on rolls. Can Flame strike once. Save is DC18. While the weapon is drawn, the user's arm is encased in a red fire. If you're walking, can leave red summoning behind. (1d4dmg)
+4         Sun Blade         1d8         +2 to att and dmg, if undead +1d8. Light 15feet around user.
 5         The Bifrost         Quarterstaff         Can cast the spell Gate once per week. When wielding it surrounded by rainbows. If you're walking, can leave rainbow footprint behind.
 5         The Dreamer         Shortbow         Gain a +3 on roll. As a bonus action, you can summon a winged unicorn, capable of flight, that you can ride and use as a battle companion. Recharges on a long rest. When the bow is held, it leaves a trail of pink sparkles. If walking, can leave rainbow hoofshoes behind.
+4         The ambulance         1d10         Heals (within 10'). Hurts if further.
 5         Twinspear         Spear         Gain +2 on roll and damages. Gold spear: when you hit a creature with this spear, the target must succed on a DC 13 CON or its HP maximum is reduced by an amount equal to the damage taken. Target dies if HP lowers to 0. Tethered Magic: These weapons lose their magic if they are more than 120feet away from each other.
+4         Fell star         GreatAxe         Must be good alignement to use. +3 bonus to attack dmg and the target takes and extra 2d6 dmg. If it strikes an evil alignment creature, it must do a DC 18 cons. On a failed, dmg increases by 1d6 as spectral feathers. Can reapeat save throw on every turn to prevent dmg. Can only be removed by remove curse.
 5         Astralaria         1d8         Gain a +3 on rolls and add a 3d6 radiant Also gain truesight. When you wield this weapon, your arms makes it look like a night sky. When the axe is swung, it leaves a trail, similar to the visual effect on the arm. If you're walking, can leave cosmic footprint.
