@@ -24,17 +24,27 @@ def tire(personnage,nombre):
             carte = randrange(0, 22)
         if int(carte) not in carte_no:
             carte_no.append(carte)          
-            print('(Carte '+ str(i+1) + ') Vous avez pigez '+ var.playing_card[carte]+'('+ str(carte)+'), ce qui est la carte du... ' + var.card[carte] )
+            print('(Carte '+ str(i+1) + ') Vous avez pigez... '+ var.playing_card[carte]+'('+ str(carte)+'), ce qui est la carte du... ' + var.card[carte] )
     for i in range(len(carte_no)):
         fd.write(var.playing_card[carte_no[i]] + "         " + str(carte_no[i])+"         "+ var.card[carte_no[i]]+"\n")
 
 def main():
     commande = input('On tire une carte? (Oui,Non)?:')
     if commande == 'O' or commande == 'o':
-        personnage = input('Qui est-ce?:')
+        personnage = input('Qui est-ce? caleb (0), ilnhu (1), kolari (2), ladies (3), reishi (4), george (5):')
+        personna = ['caleb', 'ilnhu','kolari','ladies','reishi','george']
+        
+        carte_no2 = []
+        name = ["playing_card", "card"]
+        name_dg= ["playing_card","card_no","card"]
+        var = pd.read_csv( 'DnDItem_DoMT.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')
+        deja_pige = pd.read_csv( personna[int(personnage)]+'_DoMT.txt', sep=r'\s+\s+', header = 0,names=name_dg, engine='python')
+        for i in range(len(deja_pige.card_no)):
+            carte_no2.append(deja_pige.card_no[i])
+        print(str(personna[int(personnage)])+' à déjà pigé '+ str(len(carte_no2)) + ' cartes sur 22')
         print('On tire, mais n.oublier pas de déclarer combien vous en pigez...')
         nombre = int(input('Combien de cartes seront pigée?s:'))
-        tire(personnage, nombre)
+        tire(personna[int(personnage)], nombre)
     if commande =='N' or commande =='n':
         print('Je serais toujours la...')
         sys.exit()
