@@ -40,6 +40,7 @@ Rarity         Name         Effect         Bonus
 4         Boots of the winterlands         NA         Resistance to cold and ignore terrain of ice and snow (cold)
 3         Boots of speed         NA         Use action to double your speed (need to hit hilt) Everyone attacking has disadvantage
 5         Plate armour of Etherealness         18         On words, get the etherealness for 10min or speak the words again. Can be used once per day (recharge at dawn).
+5         Magma chain armour         Chain armour         Need proefficiency with light armour. Grants the wearer expertise of fire feat. Same AC as medium but is light.
 3         Boots of elvenkind         NA         Make no sound regardless of the surface. Advantage on stealth dex check
 4         Dragon armour         15         advantage vs breath of dragons, plus resistance to the type of the scales(black acid, blue lightning, brass fire, bronze lightning, copper acid, gold fire,gree poison, red fire, silver cold, white cold). In addition, can focus and find dragon (same as your scale) nearest within 60km.
 3         Glamoured studded leather         13         Bonus action to speak command and the armour looks like regular clothes or other armour (you decide all)
@@ -51,10 +52,13 @@ Rarity         Name         Effect         Bonus
 3         Knight's Armour         ChainMail         +1Ac at night
 3         Cloak of levih-Floatness         NA         A red cloak that has a large popped collar.The cloak can cast levitat if asked nicely (must add please and a dc15 check persuation). Will wipe any tear
 3         Tank top         +2AC         A tank top that can be worn under armour
-3         Death'S knee brace         NA         An armored piece of knee covering that increases your speed based on the last kill. Every new kill overwrittes the previous
+3         Death's knee brace         NA         An armored piece of knee covering that increases your speed based on the last kill. Every new kill overwrittes the previous
 4         Attractive shiny armour         Chainmail         chainmail that gives +2AC. Very shiny. Much attractive. Such a hit with the ladies. Any projectile that flies within a 10foot radius is redirected to the sender and hit them (automatic)
 3         Stormy Helm         3AC         A glimmering white helmet with a black visor. Hard to see out of. -5 on any ranged attack
+4         Veiled infernos gauntlet         NA         Needs a strenght of 13+ and finesse. To master it, one must survve 3 bleed and burn. 2 mode of operation, Crimson dance and infernal slash (need to say which mode is used). CD: 33percent chance to make target bleed for 2d6. IS: 33 percent penetrate and ignore target armour
 3         Boots of punting         NA         A pair of leather boots with reinforced, pointed toes. Wearer has an irrestistible urge to punt anything in the tiny size category or smaller. Wearer can make punting attak (-2 str check) for 1d6 piercing and 1d6 blundgeoning. The character sente 10' directly from the wearer on a hit.
+5         Ruby crest shield         NA         Need 18str and shield feat. Made out of pure obsidian. Can be used to bash an ennemy 10feet away. The ruby grants the user resistance to fire and necrotic.
+4         Shield of the six knights         +1AC         Belonged to the chief of the six knights. Allow the wielder to inspire people around it. Anyone within 30ft gain +1AC and allow the wielder to deflect necrotic spells back to its caster. Can bring back to the corpse for proper burial
 4         Helm of courage         +1AC         A beautiful helmet. A helmet that encourages the player heartly. Good shot! Nice Hit! I'm sure you'll get it next time
 4         Robe of the high ground         NA         A simple, hooded robe, like one a monk would wear. Gives wearer advantage on any attacks made on someone below them and a tendency to speak in absolute.
 4         Gauntlet of Garlan         NA         One of the few remains of the armour once worn by Garlan the Brave. It was forged in arcane magic and tempered to whitstand the blow of any blade, mortal or not. The wearer can attempt to unbind a curse while wearing it
