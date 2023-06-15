@@ -5,6 +5,7 @@ Rarity         Name         Effect         Bonus
 1         club         1d4         NA
 2         Shortbow         1d6         NA
 1         Greatclub         1d8         NA
+2         Handgun         1d4         NA
 1         BattleAxe         1d8         +1attack +1dmg
 1         Spear         1d6         NA
 2         Greatsword         2d6         NA
@@ -111,7 +112,7 @@ Rarity         Name         Effect         Bonus
 3         Stoneforge hammer         1d10         Weapon given to stoneforge pilgrims is a simple greathammer bearing the symbols of the order: an anvil and a lock. When the wielder lands a killing blow, regain 1d6 HP
 5         Baleflame         1d6         "Dark and cold was the night in which the baleflame first sparked to life..." The baleflame is a legendary weapon, known merely as a myth to many... Yet the creatures of the night knows its bite too well...
 5         Lifethriver         NA         This magical staff is rumored to be a gift from Lathander, who, in his mighty power, embedded it with the very essence of birth, light and renewal
-4         Emberstone staff         Very rare and powerfull staff, the aura it emits when being close that is even said to be some sort of ore of pure magic. Truth or not, it has been proven that this mineral increases the effectiveness of all kind of spells and enchantement,
+4         Emberstone staff         N/A         Very rare and powerfull staff, the aura it emits when being close that is even said to be some sort of ore of pure magic. Truth or not, it has been proven that this mineral increases the effectiveness of all kind of spells and enchantement
 4         Dagger of thornfire         1d4         The cursed steel of this weapon is said to cause a terrible pain to its victime, whome can only describe it as a prolonged stinging heat that extends rapidly through one's bones. Even the slightest cut of flesh wound will cause immense pain. The dagger inflicts 2d4 force dmg to a wounded ennemy. On a 5+, the victime temporarily restrained due to the pain
 3         Starsteel sword         1d8         Made from the metal of a comet, in the proper hands, can make fore weapons able to cut through shields and magic barrier as if there was only air in their path
 3         Axe of the exile         1d6         +1handaxe and 1d6 on throw. Return to the weilder. If cannot catch or the weilder have moved, it fall on the ground. Cursed: exile, upon takign the axe, you are unable to return within a mile radius of your home settlement nor speak to family or loved ones. When within the radius or talking to a forbiden, take 1point of exhaustion and must do dc18 every 10 minutes. On a fail, you flee
@@ -125,7 +126,7 @@ Rarity         Name         Effect         Bonus
 3         Toothbiter         1d6+1         Advantage on disarm opponents. Curse: If your roll 1 or 2, the flat of the sword smacks the wielder in the face, dealing 1d4 bludgeoning damange and breaking a tooth
 3         Shortsword of vengeance         NA         Gleaming shortsword blessed by a priest of Tempus, and previously owned by a battlefield commander. The +1 shortsword will deal 1d6dmg or 2d6 dmg if the victim has injured the wielder before.
 3         Sword of feelings         N/A         A sword that inflicts emotional wounds
-3         The goblin sword	N/A         A dagger that glows in the presence of one particular goblin
+3         The goblin sword         N/A         A dagger that glows in the presence of one particular goblin
 3         Trident of fish command         1d6         3 charges, can use action to cast dominate beast (DC15 save) on a beast that has an innate swimming movement. 1d3 charges gained per day (max 3)
 4         Night king's spear         1d6         Learn the spell conjure minor elementals, treat it as a water elemental without the weakness freeze
 3         Magic wand         N/A         A wand that allow you to use magic spelle lmfao
