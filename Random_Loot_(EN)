@@ -9,116 +9,132 @@ from random import randrange
 import sys
 
 def loot():
-    prefix = 'DnDItem_'
-    suffixe = {0:'ARME', 1:'ARMU', 2:'ACCES'}
-    name = ["Rarity", "Name", "Effect", "Bonus"]
+    prefix = 'DnDItem_' #Suffixe des .txt dans lesquels il y a les items
+    suffixe = {0:'ARME', 1:'ARMU', 2:'ACCES'} #Les differents fichiers
+    name = ["Rarity", "Name", "Effect", "Bonus"] #Noms des colonnes
 
-    diff = int(input('Enter the ennemy rank between 1 (weaker) and 5 (stronger) :'))
-
-    chance = randrange(0, 30)
-    if chance > (30-(3*(5/diff))):
-        print('Such a shame...there.s nothing!')
+    diff = int(input("Type in the ennemy difficulty with 1 the weakest, and 5 the strongest")) # 1- genre un paysan, 5 genre un dragon ou un boss. Refaite rouler le code si l'item ne vous plait pas
+    #diff = 3
+    chance = randrange(0, 50)
+    if chance > (50-(5*(5/diff))): #Si lennemie est de niveau dif 5, 45/50 chance davoir qqc, si niv 1, 25/50 davoir qqc
+        print("Such a shame...There's nothing!")
         main()
     else:
-        cashmoney = 60/diff + (3-diff)*diff
-        item = 30 
-        both = 10*diff
-        total = cashmoney + item + both
-        chance2 = randrange(0, total) 
-        if chance2 < cashmoney:
-            print('Gold!')
-            nba = randrange(0,20)
-            copper = round(nba/int(diff) + chance2,0)
-            silver = round(nba + chance2,0)
-            gold = round(nba*int(diff)-nba,0)
-            print('There is ' + str(copper) +' copper, '+str(silver)+ ' silver and '+ str(gold)+ ' gold')
-            main()
-            
-        if chance2 >= cashmoney+item:
-            print('Gold, and an item! What a luck! Roll a d12...')
-            nba = randrange(0,20)
-            copper = round(nba/diff + chance2,0)
-            silver = round(nba + chance2,0)
+        cashmoney = round(60/diff,0) + (3-diff)*diff #1= 60+2, 2=30+2, 3=20, 4 = 11, 5 = 2
+        item = 30  #Choisi ampiriquement/milieu pour rendrent les truc plus random
+        lesdeux = 10*diff #Idem, le 10 est choisi ampiriquement
+        total = cashmoney + item + lesdeux #Total du range aleatoire #1=102, 2=100, 3=90, 4=81 et 5=82
+        chance2 = randrange(0, total) #Un chiffre random entre max
+        if chance2 < cashmoney: #1= <62, 2=<32, 3=<20, 4 = <11, 5 = <2
+            print("Coins!")
+            nba = randrange(0,15)
+            copper = round(nba/int(diff) + chance2/5,0) #min=(0 et 0) /max (15 et 60) entre [0,15]/diff +[0,total]/5
+            silver = round(nba + chance2/4,0) #min=(0 et 0) /max (15 et total) entre [0,15] + [0,total]/4
+            gold = round(nba*int(diff)-nba,0) #1=0 toujours, [0,15]*dif-[0,15]
+            print('There are ' + str(copper) +' copper, '+str(silver)+ ' silver and '+ str(gold)+ ' gold')
+            main()           
+        if chance2 >= cashmoney+item: #min qu.il faut est 1=92/102, 2=62/100, 3=50/90, 4=41/81 et 5=32/82
+            print('Coins and an item! What a find!'+'\n'+'   Roll a d12...')
+            nba = randrange(0,15)
+            copper = round(nba + chance2,0)
+            silver = round(nba/diff + chance2,0)
             gold = round(nba*diff-nba/diff,0)
-            print('There is ' + str(copper) +' copper, '+str(silver)+ ' silver and '+ str(gold)+ ' gold')
-        
+            print('There is ' + str(copper) +' copper, '+str(silver)+ ' silver and '+ str(gold)+ 'gold')        
         if chance2 >= cashmoney:
-            if cashmoney < chance2 < cashmoney +item:
-                print('An item! Roll a d12...')
-            Nb = int(input('What.s the number on the d12:'))
+            if cashmoney < chance2 < cashmoney +item: #Si chance 2 est entre le max d.argent et le min d.argent+item
+                print("An item! Roll a d12...")
+            #Nb=7
+            Nb = int(input('Type in the number on the d12:'))
             if 1 <= Nb <= 4:
-                print('A WEAPON')
-                var = pd.read_csv(prefix + suffixe[0] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')    
+                print('A weapon')
+                #var = pd.read_csv(prefix + suffixe[0] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')    
+                file = open(prefix + suffixe[0] + '.txt', 'r')
             if 5 <= Nb <= 8:
-                print('An ARMOUR')
-                var = pd.read_csv(prefix + suffixe[1] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')        
+                print('An armour')
+                file = open(prefix + suffixe[1] + '.txt', 'r')       
             if 9 <= Nb <= 12:
-                print('An ACCESSORY')
-                var = pd.read_csv(prefix + suffixe[2] + '.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')
-            
-            R1 = [[] for i in range(4)]
-            R2 = [[] for i in range(4)]
-            R3 = [[] for i in range(4)]
-            R4 = [[] for i in range(4)]
-            R5 = [[] for i in range(4)]
-            for i in range(len(var.Rarity[:])):
-                if var.Rarity[i] == 1:
-                    R1[0].append(var.Rarity[i])
-                    R1[1].append(var.Name[i])
-                    R1[2].append(var.Effect[i])
-                    R1[3].append(var.Bonus[i])   
-                if var.Rarity[i] == 2:
-                    R2[0].append(var.Rarity[i])
-                    R2[1].append(var.Name[i])
-                    R2[2].append(var.Effect[i])
-                    R2[3].append(var.Bonus[i])
-                if var.Rarity[i] == 3:
-                    R3[0].append(var.Rarity[i])
-                    R3[1].append(var.Name[i])
-                    R3[2].append(var.Effect[i])
-                    R3[3].append(var.Bonus[i])
-                if var.Rarity[i] == 4:
-                    R4[0].append(var.Rarity[i])
-                    R4[1].append(var.Name[i])
-                    R4[2].append(var.Effect[i])
-                    R4[3].append(var.Bonus[i])
-                if var.Rarity[i] == 5:
-                    R5[0].append(var.Rarity[i])
-                    R5[1].append(var.Name[i])
-                    R5[2].append(var.Effect[i])
-                    R5[3].append(var.Bonus[i])  
-        
-            probamin = [0,20,40,50,70]
-            rangeu = [42, 65, 76, 88, 110 ]      
-            objetiem = randrange(probamin[diff-1],rangeu[diff-1])
+                print('An accessory')
+                file = open(prefix + suffixe[2] + '.txt', 'r')            
+            R1 = [[] for i in range(4)] #Rarity
+            R2 = [[] for i in range(4)] #Name
+            R3 = [[] for i in range(4)] #Dice
+            R4 = [[] for i in range(4)] #Effect
+            R5 = [[] for i in range(4)] #
+            #j=0
+            for row in file:
+                row = row.rstrip('\n').split('         ')
+                #print(j,row[1],row[0])
+                if row[0] == '1':
+                    R1[0].append(row[0])
+                    R1[1].append(row[1])
+                    R1[2].append(row[2])
+                    R1[3].append(row[3]) 
+                    #print('R1',R1[1])
+                if row[0] == '2':
+                    R2[0].append(row[0])
+                    R2[1].append(row[1])
+                    R2[2].append(row[2])
+                    R2[3].append(row[3])
+                    #print('R2',R2[1])
+                if row[0] == '3':
+                    R3[0].append(row[0])
+                    R3[1].append(row[1])
+                    R3[2].append(row[2])
+                    R3[3].append(row[3])
+                    #print('R3',R3[1])
+                if row[0] == '4':
+                    R4[0].append(row[0])
+                    R4[1].append(row[1])
+                    R4[2].append(row[2])
+                    R4[3].append(row[3])
+                    #print('R4',R4[1])
+                if row[0] == '5':
+                    R5[0].append(row[0])
+                    R5[1].append(row[1])
+                    R5[2].append(row[2])
+                    R5[3].append(row[3]) 
+                #j+=1
+            print('R1',len(R1[1])) 
+            print('R2',len(R2[1])) 
+            print('R3',len(R3[1])) 
+            print('R4',len(R4[1])) 
+            print('R5',len(R5[1]))                     
+
+            probamin = [0,18,35,49,69] #Limit inf arbitrairement/ampiriquement choisi ish
+            rangeu = [41, 63, 78, 88, 110]     #Limit sup arbitrairement/ampiriquement choisi ish
+	        #l.idee des bornes est d.assurer qu.un ennemie faible ne donne pas (ou probalbement pas) d.item trop elevee. en fait  
+	        # 1 [com,peu comm], 2[Comm, rare], 3[val, peu comm] 4[peu comm, leg] 5[rare, legendaire]
+            objetiem = randrange(probamin[diff-1],rangeu[diff-1]) #le -1 est pour mettre le chiffre en numeration ordinateur (ou le premier est 0 et pas 1 alors que le plus bas difficulte est 1)
+            #print('OBJET',objetiem)
             if objetiem <= 20: #Objet commun
                 gofb = randrange(1, len(R1[0]))
-                print('The item is: ' +str(R1[1][gofb]) +' (rarete '+str(R1[0][gofb]) +') ' +', Effect: '+  str(R1[2][gofb])+', Bonus: '+  str(R1[3][gofb]))
+                print("The item is: " +str(R1[1][gofb]) +' (rarity '+str(R1[0][gofb]) +') ' +', Effect: '+  str(R1[2][gofb])+', Bonus: '+  str(R1[3][gofb]))
                 main()
             if 20 < objetiem <= 40: #Objet de valeur
                 gofb = randrange(1, len(R2[0]))
-                print('The item is ' +str(R2[1][gofb]) +' (rarete '+str(R2[0][gofb]) +')' +', Effect: '+  str(R2[2][gofb])+', Bonus: '+  str(R2[3][gofb]))
+                print("The item is: "  +str(R2[1][gofb]) +' (rarity '+str(R2[0][gofb]) +')' +', Effect: '+  str(R2[2][gofb])+', Bonus: '+  str(R2[3][gofb]))
                 main()
             if 40 < objetiem <= 60: #Objet Peu commun
                 gofb = randrange(1, len(R3[0]))
-                print('The item is: ' +str(R3[1][gofb]) +' (rarete '+str(R3[0][gofb]) +')' +', Effect: '+  str(R3[2][gofb])+', Bonus: '+  str(R3[3][gofb]))
+                print("The item is: " +str(R3[1][gofb]) +' (rarity '+str(R3[0][gofb]) +')' +', Effect: '+  str(R3[2][gofb])+', Bonus: '+  str(R3[3][gofb]))
                 main()
-            if 60 < objetiem <= 80: #Objet rares
+            if 60 < objetiem <= 82: #Objet rares
                 gofb = randrange(1, len(R4[0]))
-                print('The item is ' +str(R4[1][gofb]) +' (rarete '+str(R4[0][gofb]) +')' +', Effect: '+  str(R4[2][gofb])+', Bonus: '+  str(R4[3][gofb]))
+                print("The item is: "  +str(R4[1][gofb]) +' (rarity '+str(R4[0][gofb]) +')' +', Effect: '+  str(R4[2][gofb])+', Bonus: '+  str(R4[3][gofb]))
                 main()
-            if 80 < objetiem <= 110: #Objets legandaires
+            if 82 < objetiem <= 110: #Objets legandaires
                 gofb = randrange(1, len(R5[0]))
-                print('The item is: ' +str(R5[1][gofb]) +' (rarete '+str(R5[0][gofb]) +')' +', Effect: '+  str(R5[2][gofb])+', Bonus: '+  str(R5[3][gofb]))
+                print("The item is: "  +str(R5[1][gofb]) +' (rarity '+str(R5[0][gofb]) +')' +', Effect: '+  str(R5[2][gofb])+', Bonus: '+  str(R5[3][gofb]))
                 main()
     main()
     
 def main():
-    commande = input('Search the bodies (Y= Yes,N = No)?:')
+    commande = input('We loot (Y)es or (N)o?:')
     if commande == 'Y' or commande == 'y':
-        print('We search the bodies!')
+        print('We loot!')
         loot()
     if commande =='N' or commande =='n':
+        print('Goodbye')
         sys.exit()
         
 if __name__ == '__main__':
