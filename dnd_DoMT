@@ -6,18 +6,21 @@ Created on Thu Nov  7 11:50:56 2019
 """
 import pandas as pd
 from random import randrange
+import numpy as np
 import sys
 
 def tire(personnage,nombre):
     name = ["playing_card", "card"]
     name_dg= ["playing_card","card_no","card"]
     carte_no = [] #Carte deja pige
-    var = pd.read_csv( 'DnDItem_DoMT.txt', sep=r'\s+\s+', header = 0,names=name, engine='python') #
-    deja_pige = pd.read_csv( personnage+'_DoMT.txt', sep=r'\s+\s+', header = 0,names=name_dg, engine='python') #
-    for i in range(len(deja_pige.card_no)):
-        carte_no.append(deja_pige.card_no[i]) #Append la liste des cartes pigees
+    #var= np.genfromtxt('DnDItem_DoMT.txt', dtype=None, delimiter=r'\s+\s+',skip_header=1)
+    var = pd.read_csv( 'DnDItem_DoMT.txt', sep=r'\s+\s+', header = 0,names=name, engine='python') #ouf fucking panda
+    deja_pige=np.genfromtxt(personnage+'_DoMT.txt',delimiter='         ',skip_header=1)
+    #deja_pige = pd.read_csv( personnage+'_DoMT.txt', sep=r'\s+\s+', header = 0,names=name_dg, engine='python') #Ouf fucking mouer
+    for i in range(len(deja_pige)):
+        carte_no.append(deja_pige[i][1]) #Append la liste des cartes deja pigees
     fd=open(personnage+'_DoMT.txt', "w") #Ouvre le document et ecrit par dessus
-    fd.write('playing_card' + "         " + 'card_no'+ "         "+ 'card'+"\n")
+    fd.write('playing_card' + r'\s+\s+' + 'card_no'+ r'\s+\s+'+ 'card'+"\n")
     print(carte_no)
     for i in range(nombre):            
         carte = randrange(0, 22) #Random number pour piger la carte
@@ -28,7 +31,7 @@ def tire(personnage,nombre):
             print('(Carte '+ str(i+1) + ') Vous avez pigez...'+ var.playing_card[carte]+'('+ str(carte)+'), ce qui est la carte du...' + var.card[carte] )
     for i in range(len(carte_no)):
         fd.write(var.playing_card[carte_no[i]] + "         " + str(carte_no[i])+"         "+ var.card[carte_no[i]]+"\n") #Ecriture du txt de nouveau
-
+    main()
 def main():
     commande = input('On tire une carte (Oui (O),Non (N))?:')
     if commande == 'O' or commande == 'o' or commande == 'Oui' or commande == 'oui' or commande == 'OUI':
@@ -38,10 +41,14 @@ def main():
         carte_no2 = []
         name = ["playing_card", "card"]
         name_dg= ["playing_card","card_no","card"]
-        var = pd.read_csv( 'DnDItem_DoMT.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')
-        deja_pige = pd.read_csv( personna[int(personnage)]+'_DoMT.txt', sep=r'\s+\s+', header = 0,names=name_dg, engine='python')
-        for i in range(len(deja_pige.card_no)):
-            carte_no2.append(deja_pige.card_no[i])
+        var= np.genfromtxt('DnDItem_DoMT.txt', dtype=None, delimiter=r'\s+\s+',skip_header=1)
+        #var = pd.read_csv( 'DnDItem_DoMT.txt', sep=r'\s+\s+', header = 0,names=name, engine='python')
+        #deja_pige = pd.read_csv( personna[int(personnage)]+'_DoMT.txt', sep=r'\s+\s+', header = 0,names=name_dg, engine='python')
+        deja_pige=np.genfromtxt(personna[int(personnage)]+'_DoMT.txt',delimiter='         ',skip_header=1)
+        print(len(deja_pige))
+        print(deja_pige[0][0])
+        for i in range(len(deja_pige)):
+            carte_no2.append(deja_pige[i][1])
         print(str(personna[int(personnage)])+' à déjà pigé '+ str(len(carte_no2)) + ' cartes sur 22') #Scan le nombre de cartes deja pigees
         nombre = int(input('On tire, mais n.oublier pas de déclarer combien vous en pigez...Combien de cartes seront pigée?s:')) #Essayez d.eviter que le total de nombre +deja pige depasse 22
         tire(personna[int(personnage)], nombre)
