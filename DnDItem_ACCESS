@@ -37,7 +37,7 @@ Rarity         Name         Effect         Bonus
 2         Telepathie helmet         Can read some thoughts         --
 2         Disguise helmet         Can disguise you little bit         --
 2         Revelation lantern         Lanterne qui brule 6 heures avec de l'huile (plein). Tous les ennemies et objet invisibles sont visilbe dans les champs d'éclairage de la lanterne         --
-2         Cloak of the manta ray         with hood up, can breath underwater. Pulling up or down the hood=action
+2         Cloak of the manta ray         with hood up, can breath underwater. Pulling up or down the hood=action         --
 2         Thoughts medallion         +2 charisma midifier         --
 2         Healing ring         Anneau qui soigne lors de l'utilisatoin roule 1d20 (1-2: dégat 1d12)(3-6: 1d4)(7-10: 1d6)(11-15: 1d8)(15-19: 1d12)(20: 1d6 1d12) (plus utilisé souvent, plus que le chiffre de dégat (le range) augmente. Besoin d'un cooldown         --
 3         animated rope         like a dog... but its a rope         --
@@ -166,7 +166,7 @@ Rarity         Name         Effect         Bonus
 2         Magnifying glass         Can look at small and very small objects         --
 3         Tablet of cave drawn allies         Speaking the item's command word causes 1d8 stick figure caveman to leap off the tablet and grow man size. These new allies will obey for 10 minutes, but they're easily distracted by fire which they like to chant and dance around.         --
 3         Viola of moonlit spirits         Playing it at night causes the previous owner ghost to appear. Ennemy has disadvantage roll against you on first attack. If roll a 1, they must succed a dc17 ir become frightened for one round. 5charges, can used to cast: dissonant spirit (1), moonbeam (2ch) or Geseous form (3ch)         --
-5         Helm of whispers         Function like helm of telepathy except spell saves are dc16: advantage on saves vs enchantment, advantage on intimidation, 3p/d Dominate person 1p/d psychic scream. Curse: you are unable to shut the whispering thoughts of others even without the helmet on. You becom paranoid of others, each day you must do wisdom dc16 or suffer long-term madness.
+5         Helm of whispers         Function like helm of telepathy except spell saves are dc16: advantage on saves vs enchantment, advantage on intimidation, 3p/d Dominate person 1p/d psychic scream. Curse: you are unable to shut the whispering thoughts of others even without the helmet on. You becom paranoid of others, each day you must do wisdom dc16 or suffer long-term madness.         --
 3         Mage's Prosthesis         A prosthetic limb for amputee that casts a perpetual, modified version of mage hand or feet. Can support their weight and pick moderately heavy objects.         --
 3         Communication pin         A pin 1inch long that can be pinned to clothes. Ease communication amongst party member. Player can use an action to tap the pin and connect to the nearest one (up to 300ft) and allow the wearer of the pins to communicate as if they were a few feet away         --
 4         Manual of golems         Give all info on how to do a golem         --
